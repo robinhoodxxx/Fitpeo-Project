@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-03T20:31:49 IST" name="Default suite" finished-at="2024-08-03T20:32:00 IST" duration-ms="10817">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestNgCucumberRunner@1a942c18]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-03T20:31:49 IST" name="Default test" finished-at="2024-08-03T20:32:00 IST" duration-ms="10817">
+      <class name="com.TestRunner.TestNgCucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.TestNgCucumberRunner@1a942c18]" started-at="2024-08-03T20:31:49 IST" name="setUpClass" finished-at="2024-08-03T20:31:50 IST" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3e587920]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.TestNgCucumberRunner@1a942c18]" started-at="2024-08-03T20:31:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-03T20:32:00 IST" duration-ms="10212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the Total Recurring Reimbrushment using Fitpeo Revenue Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["FitPeo Revenue Calculator"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.TestNgCucumberRunner@1a942c18]" started-at="2024-08-03T20:32:00 IST" name="tearDownClass" finished-at="2024-08-03T20:32:00 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.TestRunner.TestNgCucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
