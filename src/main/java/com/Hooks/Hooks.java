@@ -3,6 +3,7 @@ package com.Hooks;
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
+import org.junit.runners.Parameterized.Parameter;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -12,17 +13,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import io.cucumber.testng.TestNGCucumberRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ConfigReader;
 
 public class Hooks {
 	
 	public static WebDriver driver ;
-
+	
     @Before(order = 0)
 	    public void setUp() {
 	    	if(driver==null) {
-	    	String browser = ConfigReader.getProperty("browser");
+	    	String browser =ConfigReader.getProperty("browser");
 	    	driver = BrowserSetup(browser);
 
 	    	}
@@ -42,6 +44,7 @@ public class Hooks {
 	    }
 	    
 	    public  WebDriver BrowserSetup(String browser) {
+	    	
 	    	
 	        browser = browser.trim().toLowerCase();
 	        try {

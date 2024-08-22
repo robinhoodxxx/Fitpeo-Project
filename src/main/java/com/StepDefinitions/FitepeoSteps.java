@@ -33,6 +33,8 @@ public class FitepeoSteps
 		driver.get(url);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
+		
+		WebUI.waitForPageToLoad(driver);
 
         
 	}
