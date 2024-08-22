@@ -36,7 +36,7 @@ public class FitepeoSteps
 		
 		WebUI.waitForPageToLoad(driver);
 
-        
+        System.out.println("navigated to the "+url);
 	}
 
 	@When("I navigate to the Revenue Calculator Page")
