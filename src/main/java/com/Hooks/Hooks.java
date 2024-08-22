@@ -26,7 +26,7 @@ public class Hooks {
 	    	if(driver==null) {
 	    	String browser =ConfigReader.getProperty("browser");
 	    	driver = BrowserSetup(browser);
-
+      
 	    	}
 	    }
 	    

@@ -71,7 +71,6 @@ public class FitepeoSteps
 		
 		String ScrolledValue = driver.findElement(By.xpath("//input[@id=':r0:']")).getAttribute("value");
 		Assert.assertEquals(ScrolledValue, value);
-
 	   
 	}
 

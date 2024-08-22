@@ -1,4 +1,5 @@
 com\StepDefinitions\FitepeoSteps.class
+utils\WebUI$1.class
 utils\ConfigReader.class
 com\Hooks\Hooks.class
 utils\WebUI.class
